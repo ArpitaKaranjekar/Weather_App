@@ -1,16 +1,41 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+The Weather App provides real-time weather updates and displays dynamic time. It uses Flutter's state management (flutter_bloc), various utilities like intl for date-time formatting to create an intuitive and visually appealing weather dashboard.
 
-## Getting Started
+# Features
+• Shows temperature, weather conditions and weather icons based on API data.
 
-This project is a starting point for a Flutter application.
+• A live clock updates the time dynamically without requiring a reload.
 
-A few resources to get you started if this is your first Flutter project:
+• Displays a greeting message (e.g., Good Morning, Good Afternoon) based on the current time.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+• Displays the daily maximum and minimum temperatures in celsius.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# How To Run This Project
+1. Create an account at https://openweathermap.org/api.
+   
+2. Then get your API KEY from https://home.openweathermap.org/api_keys
+   
+3. Clone the repository
+  ```git clone https://github.com/ArpitaKaranjekar/Weather_App```
+
+4. Install all the packages
+   ```flutter pub get```
+   
+5. Navigate to **lib/data/my_data.dart** and paste your API KEY to the API_KEY variable
+   ```String API_KEY = 'Paste Your API KEY Here';```
+   
+6. Run the App
+
+# Screenshot
+
+<table>
+  <tr>
+    <!-- Row 1 -->
+    <td align="center">
+      <p>Main Screen</p>
+      <img src="https://github.com/user-attachments/assets/459ac7af-7a04-46a8-a0fc-521cb2d07e01" alt="Main Screen" width="200">
+    </td>  
+</table>
+
+
