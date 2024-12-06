@@ -17,12 +17,15 @@ The Weather App provides real-time weather updates and displays dynamic time. It
 2. Then get your API KEY from https://home.openweathermap.org/api_keys
    
 3. Clone the repository
-  ```git clone https://github.com/ArpitaKaranjekar/Weather_App```
+   
+     ```git clone https://github.com/ArpitaKaranjekar/Weather_App```
 
 4. Install all the packages
+   
    ```flutter pub get```
    
 5. Navigate to **lib/data/my_data.dart** and paste your API KEY to the API_KEY variable
+   
    ```String API_KEY = 'Paste Your API KEY Here';```
    
 6. Run the App
